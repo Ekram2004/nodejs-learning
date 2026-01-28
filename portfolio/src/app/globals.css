@@ -1,0 +1,15 @@
+/* ./app/globals.css */
+@import "tailwindcss";
+
+:root {
+  --background: #050505;
+  --foreground: #e5e7eb;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  /* This creates a subtle grid background like a code editor */
+  background-image: radial-gradient(#1a1a1a 1px, transparent 1px);
+  background-size: 40px 40px;
+}
